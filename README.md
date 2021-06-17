@@ -7,3 +7,4 @@
 # Deleted div classes inside aside container
 # Changed div tags to semantic for images and headers to clean up repeated code in css
 # Added alt atributes to all images for better accessability
+# Changed p text to bigger size for better reading
