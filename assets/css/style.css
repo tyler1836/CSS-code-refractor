@@ -50,7 +50,7 @@ p {
     font-size: 16px;
 }
 /* organization is off will move aside aspects below main */
-.hero {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -76,7 +76,7 @@ main {
 }
 
 /* lots of repeated code made new class to clean up repeats */
-.main-info {
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -84,11 +84,11 @@ main {
     background-color: #0072bb;
     color: #ffffff;
 }
-main img{
+article img{
     max-height: 200px;
 }
 
-main h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -107,13 +107,13 @@ aside p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-.aside-headers {
+section h3 {
     margin-bottom: 10px;
     text-align: center;
     color: #ffffff;
 }
 
-.aside-img {
+section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -127,6 +127,6 @@ footer {
     text-align: center;
 }
 
-.footer h2 {
+footer h4 {
     font-size: 20px;
 }
