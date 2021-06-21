@@ -45,6 +45,10 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+a:hover{
+    background-color: #207cb1;
+    border-radius: 5px;
+}
 
 /* organization is off will move aside aspects below main */
 figure {
@@ -130,4 +134,64 @@ footer {
 
 footer h4 {
     font-size: 20px;
+}
+@media screen and (max-width: 980px) {
+    header{
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1{
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul{
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    a{
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    a:hover{
+        background-color: #2589bd;
+        border-radius: 5px;
+    }
+    article p{
+        font-size: 16px;
+    }
+    article h2{
+        font-size: 24px;
+    }
+    article img{
+        max-height: 200px;
+        max-width: 250px;
+    }
+    footer h2, footer div{
+        text-align: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 700px) {
+    header nav ul{
+        margin-top: 10px;
+        width: 80%;
+    }
+    a{
+        font-weight: lighter;
+    }
+    article img{
+        max-height: 150px;
+    }
+    
+    aside{
+        margin-left: 200px;
+        padding: 10px 25px ;
+        float: inherit;
+    }
+    aside p{
+        display: inline-block;
+    }
 }
